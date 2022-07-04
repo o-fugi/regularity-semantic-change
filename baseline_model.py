@@ -1,15 +1,14 @@
 import random
 import matplotlib.pyplot as plt
 
-total_ranks = 100
+total_ranks = 10000
 
 diff = []
 
-for i in range(0, 10000):
-	x = random.randrange(total_ranks)
-	y = random.randrange(total_ranks)
-	diff.append(abs(x-y))
+predicted_rank = list(range(0, total_ranks))
+random.shuffle(predicted_rank)
 
+diff = [abs(actual - predicted) for actual, predicted in zip(list(range(0, total_ranks)), predicted_rank)]
 
 plt.xlabel('Difference between actual and predicted')
 plt.ylabel('Frequency')
