@@ -1,8 +1,8 @@
-# A computational analysis of systematicity in semantic change across languages
+# A computational analysis of regularity in semantic change across languages
 
 This repository contains code and data for the following manuscript:
 
-Fugikawa, Hayman, Liu, Yu, Brochhagen, & Xu (in submission). A computational analysis of systematicity in semantic change across languages.
+Fugikawa, Hayman, Liu, Yu, Brochhagen, & Xu (in submission). A computational analysis of regularity in semantic change across languages.
 
 ## Key Code
 * Direction_Prediction_Task.ipynb
