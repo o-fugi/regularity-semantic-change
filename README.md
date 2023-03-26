@@ -2,7 +2,7 @@
 
 This repository contains code and data for the following manuscript:
 
-Fugikawa, Hayman, Liu, Yu, Brochhagen, & Xu (in submission). A computational analysis of crosslinguistic regularity in semantic change.
+Fugikawa O, Hayman O, Liu R, Yu L, Brochhagen T and Xu Y (2023). A computational analysis of crosslinguistic regularity in semantic change. Front. Commun. 8:1136338. doi: 10.3389/fcomm.2023.1136338
 
 ## Key Code
 * Direction_Prediction_Task.ipynb
